@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Deep Learning Neuromarketing
 
-You can use the [editor on GitHub](https://github.com/antonio-revilla/deep-learning-neuromarketing/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![Image](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11042-017-4580-6/MediaObjects/11042_2017_4580_Fig8_HTML.gif)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Project Description
 
-### Markdown
+For this project I plan on using neural networks to predict whether a person likes or dislikes a certain product or image based off EEG signal responses after being exposed to that certain product. I plan on training a neural network on EEG data with labels indicating the product and the correlating reactionary EEG data along with a “like” or “dislike” feedback from the subject (see the figure above). Using neurological data from emotional representation in this manner can be described as neuromarketing. I plan on using a dataset used in the paper “Analysis of EEG signals and its application to neuromarketing” (Yadava et al.). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Utilizing this dataset above is one example of general neuromarketing. However, there are endless subjects to test user preference like TV commercials, books, wine tasting, etc.. For now this dataset provided by Yadava et al. seems like a good starting point to gauge general user preferences for general products. Replicating the experiments used in the creation dataset would be ideal for the sake of simply gathering more data to help the neural network. 
 
-```markdown
-Syntax highlighted code block
+## Project Goals
 
-# Header 1
-## Header 2
-### Header 3
+1.	Find / Generate (if possible) datasets representing mapping EEG data to consumer preference
+2.	Gain a better understanding on how EEG signals indicate user preferences and represent emotions
+3.	Train a Neural Network on this data
+4.	Gain a deeper understanding of the ethical concerns of neuromarketing techniques
 
-- Bulleted
-- List
+## Project Blockers / Thoughts
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/antonio-revilla/deep-learning-neuromarketing/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Potentially not enough data for a decent neural network to be trained on general product data 
+- May have to be more specific (i.e. people's user preferences on movies)
